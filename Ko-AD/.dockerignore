@@ -1,8 +1,0 @@
-node_modules
-dist
-.git
-.env
-.DS_Store
-Cursor/web-ads-app/node_modules
-Cursor/server/node_modules
-

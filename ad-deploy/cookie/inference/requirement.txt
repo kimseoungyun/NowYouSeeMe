@@ -1,0 +1,32 @@
+# Core ML + LLM
+torch
+transformers==4.57.0
+bitsandbytes
+accelerate
+peft
+trl==0.22.2
+unsloth
+unsloth_zoo
+cut_cross_entropy
+hf_transfer
+huggingface_hub>=0.34.0
+datasets>=3.4.1,<4.0.0
+sentencepiece
+protobuf
+
+# Vision / Whisper / Video Processing
+openai-whisper
+ffmpeg-python
+moviepy<2.0
+scenedetect
+qwen-vl-utils
+opencv-python
+
+# Math / Data
+numpy
+pandas
+scikit-learn
+tqdm
+
+# Images
+pillow

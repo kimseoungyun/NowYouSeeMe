@@ -1,0 +1,87 @@
+[
+    {
+        "start_time":0.0,
+        "end_time":3.94,
+        "dialogue":"Hello, Walter.",
+        "characters":"- Person 1 (Man, Dark clothing): Visible in Images 3 to 7. He is wearing dark-colored attire, possibly a dark jacket or shirt and pants. He stands near the front car, initially facing it, then turns slightly toward the rear car as he moves. His posture suggests he is inspecting the vehicles or interacting with someone else who appears later.\n\n- Person 2 (Man, Light-colored top, Dark pants): Visible in Images 4 to 7. He appears behind the second car, wearing a light-colored top (possibly white or beige) and dark pants. He walks from the rear of the second car toward its passenger side, moving into view as the sequence progresses.\n\nNote: The first two frames (Images 1 and 2) show no clearly identifiable human figures. The third frame introduces Person 1, and Person 2 becomes visible starting in Image 4. Both individuals remain visible through Image 7.",
+        "visual_analysis":"[Action Summary]: Person 1, dressed in dark clothing, stands near the front vehicle, initially facing it, then turns slightly toward the rear car as he begins to move. Person 2, wearing a light-colored top and dark pants, emerges from behind the second car and walks toward its passenger side. As the sequence continues, Person 2 approaches the rear car while Person 1 remains stationary near the front car.",
+        "stage1_result":"The man wearing dark-colored attire, possibly a dark jacket or shirt and pants, stands near the front car, initially facing it, then turns slightly toward the rear car as he moves, while the man wearing a light-colored top, possibly white or beige, and dark pants, emerges from behind the second car and walks toward its passenger side.",
+        "stage2_mapping":{
+            "Person 1":"Man A",
+            "Person 2":"Man B"
+        },
+        "stage2_reasoning":"Scene logic analysis: Person 1 and Person 2 are introduced in the current context. Person 1 is wearing dark clothing and Person 2 is wearing a light-colored top and dark pants. Since they are introduced in the same scene and have distinct physical traits, they are assigned separate IDs. Person 1 is assigned 'Man A' and Person 2 is assigned 'Man B'.",
+        "stage2_active_ids":[
+            "Man A",
+            "Man B"
+        ],
+        "final_narrative":"Man A stands near the front car, then turns toward the rear car as he moves, while Man B emerges from behind the second car and walks toward its passenger side."
+    },
+    {
+        "start_time":3.94,
+        "end_time":8.5,
+        "dialogue":"Before I hand this over,",
+        "characters":"- Person 1 (Man, Dark clothing): Visible in Images 2 to 9. He is standing near the front of a silver car, wearing dark pants and a dark shirt. His posture suggests he is interacting with the vehicle or looking at something on the ground. The dust cloud behind him indicates recent movement.",
+        "visual_analysis":"[Action Summary]: From Image 2 to 9, Person 1 remains stationary near the front of the silver car, maintaining his posture as if interacting with the vehicle or examining something on the ground. A visible dust cloud trails behind him, indicating recent motion that has since ceased. There are no changes in his position or interaction throughout this sequence.",
+        "stage1_result":"The man wearing dark pants and a dark shirt stands stationary near the front of a silver car, maintaining a posture that suggests interaction with the vehicle or examination of something on the ground, as a visible dust cloud trails behind him, indicating recent motion that has since ceased.",
+        "stage2_mapping":{
+            "Person 1":"Man A"
+        },
+        "stage2_reasoning":"Scene logic analysis: The current person is wearing 'Dark clothing' and standing near the front of a silver car. Checking Registry... 'Man A' is wearing 'Dark clothing' and has been standing near the front car (Match). Updating 'Man A' with new information.",
+        "stage2_active_ids":[
+            "Man A"
+        ],
+        "final_narrative":"Man A stands near the front of a silver car, interacting with the vehicle or examining something on the ground."
+    },
+    {
+        "start_time":8.5,
+        "end_time":11.5,
+        "dialogue":"I need something from you. And what's that?",
+        "characters":"- Person 1 (Man, Bald head, wearing a beige\/tan suit jacket and matching pants, carrying a brown leather duffel bag over his right shoulder): Visible in Images 2 to 6.\n- Person 2 (Man, Bald head, wearing a dark green jacket over a white shirt and light-colored trousers): Visible in Images 2 to 6.",
+        "visual_analysis":"[Action Summary]: In Images 2 through 6, two men stand facing each other in an arid, wooded clearing with a dusty, abandoned sedan between them. Person 2, wearing a dark green jacket, walks toward the center of the frame from the left side of the vehicle and stops, standing still. Person 1, dressed in a beige suit and holding a brown duffel bag over his right shoulder, remains stationary throughout, facing Person 2. Neither individual moves or interacts further after their initial positioning.",
+        "stage1_result":"The bald man wearing a beige\/tan suit jacket and matching pants, carrying a brown leather duffel bag over his right shoulder, stands stationary facing the bald man wearing a dark green jacket over a white shirt and light-colored trousers, who walks toward the center of the frame from the left side of the dusty, abandoned sedan and stops, standing still.",
+        "stage2_mapping":{
+            "Person 1":"Man C",
+            "Person 2":"Man C"
+        },
+        "stage2_reasoning":"Scene logic analysis: The current person is 'Bald' and wearing a 'Suit'. Checking Registry... 'Man A' is 'Red Hair' (Mismatch). 'Man B' is 'Blonde' (Mismatch). No match found. This is a new distinct character. Assigning 'Man C'. \/ Scene 19 Montage check: Person 1 and Person 2 in this scene both have 'Bald heads'. Despite different clothes, they are likely the same person in a montage. Mapping both to 'Man C'.",
+        "stage2_active_ids":[
+            "Man C"
+        ],
+        "final_narrative":"Man C stands stationary facing Man C, who walks toward the center of the frame from the left side of the dusty, abandoned sedan and stops, standing still."
+    },
+    {
+        "start_time":11.5,
+        "end_time":17.06,
+        "dialogue":"The names of your nine men. Why?",
+        "characters":"- Person 1 (Man, Bald, wearing a green jacket over a white shirt and beige pants): Visible in Images 1 to 10.\n- Person 2 (Man, Bald, wearing a tan suit and carrying an orange duffel bag): Visible in Images 1 to 10.",
+        "visual_analysis":"[Action Summary]: From Image 1 to 10, two bald men stand facing each other in a dry, wooded area with a dusty car behind them. Person 1, wearing a green jacket, stands near the rear of the car. Person 2, dressed in a tan suit and holding an orange duffel bag, faces Person 1 from across the space.\n\nBetween Image 6 and 10, Person 1 turns his head slightly while remaining stationary, shifting his gaze toward Person 2. Person 2 remains motionless throughout all frames, maintaining his position and orientation toward Person 1. There is no movement or interaction beyond their sustained, face-to-face stance.",
+        "stage1_result":"The bald man wearing a green jacket over a white shirt and beige pants stands near the rear of a dusty car in a dry, wooded area, turning his head slightly to gaze at the bald man dressed in a tan suit and holding an orange duffel bag, who remains motionless and facing him.",
+        "stage2_mapping":{
+            "Person 1":"Man C",
+            "Person 2":"Man C"
+        },
+        "stage2_reasoning":"Scene logic analysis: The current context shows two bald men. Checking Registry... 'Man C' is the only bald man in the registry, but the outfit does not match. Updating 'Man C' with new outfit. Person 1 and Person 2 are likely the same person due to the bald physical trait and the scene context. Mapping both to 'Man C'.",
+        "stage2_active_ids":[
+            "Man C"
+        ],
+        "final_narrative":"Man C stands near the rear of a dusty car in a dry, wooded area, turning his head to gaze at Man C, who remains motionless and facing him."
+    },
+    {
+        "start_time":17.06,
+        "end_time":19.5,
+        "dialogue":"You're never gonna pay them off. What's the point?",
+        "characters":"- Person 1 (Man, Bald, wearing a green jacket over a white shirt and khaki pants): Visible in Images 1 to 4.\n- Person 2 (Man, Bald, seen from the back, wearing a beige\/tan collared shirt): Visible in Images 1 to 4.",
+        "visual_analysis":"[Action Summary]: Person 1 stands facing Person 2, who is seen from the back. Person 1 remains stationary throughout, with his hands by his sides, maintaining eye contact as he looks toward Person 2. The two men are positioned outdoors near an old car, with no change in their posture or position across the sequence of images.",
+        "stage1_result":"The bald man wearing a green jacket over a white shirt and khaki pants stands stationary with his hands by his sides, maintaining eye contact as he looks toward the bald man seen from the back, wearing a beige\/tan collared shirt, who remains positioned in front of him near an old car.",
+        "stage2_mapping":{
+            "Person 1":"Man C",
+            "Person 2":"Man C"
+        },
+        "stage2_reasoning":"Scene logic analysis: The current person is 'Bald' and wearing a 'green jacket'. Checking Registry... 'Man C' is 'Bald head' and has a 'Green jacket' in their outfit history. This is a match. \/ Scene logic analysis: The current person is 'Bald' and seen from the back, wearing a 'beige\/tan collared shirt'. Checking Registry... 'Man C' is 'Bald head' and has a 'Tan suit' in their outfit history. This is a match.",
+        "stage2_active_ids":[
+            "Man C"
+        ],
+        "final_narrative":"Man C stands stationary with his hands by his sides, maintaining eye contact with Man C, who remains positioned in front of him near an old car."
+    }
+]
