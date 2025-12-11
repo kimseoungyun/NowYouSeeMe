@@ -1,6 +1,16 @@
 ## 통합 인퍼런스/배포 가이드
 
-단일 스크립트(`unified_inference.py`)로 AD 생성부터 TTS 입힌 최종 영상까지 만듭니다. GitHub에 업로드 후 바로 실행할 때 필요한 최소 파일과 사용법만 정리했습니다.
+단일 스크립트(`unified_inference.py`)로 AD 생성부터 TTS 입힌 최종 영상까지 만듭니다.
+
+### 입력 예시
+```
+python unified_inference.py
+                    --model gemini
+                    --video_path <YOUR_VIDEO_PATH>
+                    --lang ko
+                    --voice_profile gemini_kor_female
+                    --gemini_api_key <YOUR_GEMINI_API_KEY>
+```
 
 ### 준비물
 - Python 3.11+ (3.12도 호환, 3.13은 `audioop-lts` 필요)
