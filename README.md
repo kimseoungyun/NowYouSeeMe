@@ -15,6 +15,13 @@ https://github.com/user-attachments/assets/dbece2b3-b80f-413a-bcae-63b16dae8a87
 
 **Inference 바로 가기:** 테스트 파이프라인을 실행해보고 싶다면 [ad-deploy/unified/README.md](./ad-deploy/unified/README.md) 가이드로 이동하세요.
 
+## 서비스 시연
+
+
+https://github.com/user-attachments/assets/57276b3f-09ed-4e88-9db5-1a480c01e13e
+
+
+
 ---
 
 ## 목차
