@@ -4,15 +4,16 @@
 
 ---
 
-## 샘플 데모 (영상)
+## 샘플 데모
 
-GitHub 페이지에서 바로 재생할 수 있는 샘플 영상입니다.
 
-<video src="https://github.com/horaeng1/Nowyouseeme/raw/main/ad_sample.mp4?raw=1" controls width="100%" title="Ko-AD sample video" type="video/mp4"></video>
 
-*재생이 안 될 경우 [직접 다운로드](https://github.com/horaeng1/Nowyouseeme/raw/main/ad_sample.mp4?raw=1) 후 확인해주세요.*
 
-**Inference 바로 가기:** 로컬에서 파이프라인을 실행해보고 싶다면 `[ad-deploy/unified/README.md](./ad-deploy/unified/README.md)` 가이드로 이동하세요.
+https://github.com/user-attachments/assets/dbece2b3-b80f-413a-bcae-63b16dae8a87
+
+
+
+**Inference 바로 가기:** 테스트 파이프라인을 실행해보고 싶다면 [ad-deploy/unified/README.md](./ad-deploy/unified/README.md) 가이드로 이동하세요.
 
 ---
 
