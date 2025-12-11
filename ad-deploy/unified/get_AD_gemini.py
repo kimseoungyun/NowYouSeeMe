@@ -23,8 +23,8 @@ logger = logging.getLogger(__name__)
 
 # Use gemini-2.5-flash with thinking mode disabled (thinking_budget=0)
 # This provides better performance than 2.0-flash while avoiding MAX_TOKENS issues
-# GEMINI_MODEL = "gemini-3-pro-preview"
-GEMINI_MODEL = "gemini-2.5-pro"
+GEMINI_MODEL = "gemini-3-pro-preview"
+# GEMINI_MODEL = "gemini-2.5-pro"
 PROMPT_KO = """**MISSION:** 입력된 비디오를 정밀하게 분석하여 '대사가 없는 구간(침묵 구간)'에 삽입할 화면 해설(Audio Description) 스크립트를 작성하십시오. 모든 결과는 지정된 JSON 형식으로 반환해야 합니다.
 
 **REQUIREMENTS (MANDATORY):**

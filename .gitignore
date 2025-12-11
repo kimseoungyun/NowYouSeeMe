@@ -15,6 +15,10 @@ uploads/
 ad_json/
 tts_output/
 
+# Generated media outputs
+test_53.mp4
+ad-deploy/unified/outputs/
+
 # IDE
 .vscode/
 .idea/
