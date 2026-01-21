@@ -275,7 +275,6 @@ Cursor/python/
 ```
 
 ### 5.3 Jack 모델 (`get_AD_jack.py`)
-
 **Multi-stage Context Fusion 파이프라인** - Gemini 3 Pro 기반 고품질 AD 생성
 
 
@@ -309,6 +308,7 @@ JACK 모델은 단순한 장면 설명 생성이 아닌,
   - 해당 기준 미만의 구간에 대해서는
     설명 생략, 인접 구간과의 병합,
     또는 후처리 단계에서의 대안적 처리 전략을 적용한다.
+
 
     
 #### 처리 플로우
